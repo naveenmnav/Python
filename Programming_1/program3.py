@@ -36,6 +36,8 @@ def is_prime(n):
                 break
             else:
                 return f'{n} is a prime number'
+    elif n==0:
+        return f'O is neither prime nor composite'
     else:
         return f'{n} is a prime number'
 
